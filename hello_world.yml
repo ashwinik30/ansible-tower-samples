@@ -3,5 +3,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World Welcome to ansible first playbook!"
+        msg: "Hello World Welcome to ansible first playbook new host trial!"
 
