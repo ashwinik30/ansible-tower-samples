@@ -3,7 +3,7 @@
   tasks:
     - name: creating file
       file:
-        path: "/root"
+        path: "/root/ansible.txt"
         state: touch
         msg: "File created successfully"
 
