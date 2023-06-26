@@ -1,7 +1,7 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: ibm-p9z-27-lp12.ibm2.lab.eng.bos.redhat.com
+    - name: creating file
       file:
         path: "/root"
         state: touch
