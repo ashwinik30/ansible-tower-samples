@@ -5,5 +5,5 @@
       file:
         path: "/root/ansible.txt"
         state: touch
-        msg: "File created successfully"
+    
 
