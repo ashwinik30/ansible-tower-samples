@@ -1,9 +1,11 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: creating file
-      file:
-        path: "/root/ansible.txt"
-        state: touch
+    - name: creating file with content
+      copy:
+        dest: "/root/ansible_sample.txt"
+        content: |
+          Hi welcome to ansible playbook demo 
+
     
 
